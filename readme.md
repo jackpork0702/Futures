@@ -11,26 +11,26 @@ data_per_min = db.get_per_min()
 ```
 **function**
 
-*get_each*(table='tick_log', lim=10)
-
-parameter
-> table: str, default='tick_log'
+>*get_each*(table='tick_log', lim=10)
 >
-> lim: int, default=10
-
-return
-> tuple of list
-
-
-*get_per_min*(table='tick_min_log', lim=10)
-
-parameter
-> table: str, default='tick_min_log'
+>>parameter
+>>> table: str, default='tick_log'
+>>>
+>>> lim: int, default=10
+>>
+>>return
+>>> tuple of list
 >
-> lim: int, default=10
-
-return
-> tuple of list
+>*get_per_min*(table='tick_min_log', lim=10)
+>
+>>parameter
+>>> table: str, default='tick_min_log'
+>>>
+>>> lim: int, default=10
+>
+>>return
+>
+>>> tuple of list
 
 ## Database
 ```
