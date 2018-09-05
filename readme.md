@@ -10,6 +10,7 @@ data_each = db.get_each(lim=10)
 data_per_min = db.get_per_min()
 ```
 **function**
+
 *get_each*(table='tick_log', lim=10)
 
 parameter
