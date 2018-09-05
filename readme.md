@@ -27,9 +27,9 @@ data_per_min = db.get_per_min()
 >>> table: str, default='tick_min_log'
 >>>
 >>> lim: int, default=10
->
+>>
 >>return
->
+>>
 >>> tuple of list
 
 ## Database
